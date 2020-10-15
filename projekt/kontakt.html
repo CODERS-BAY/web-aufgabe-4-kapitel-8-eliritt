@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Du warst schon einmal zu Besuch? Wir freuen uns über ein Feedback!">
+    <link rel="stylesheet" href="css/stil.css">
+    <title>Kontaktiere uns!</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Startseite</li>
+                </a>
+                <a href="infos.html">
+                    <li>Unsere Patenschaften</li>
+                </a>
+                <a href="kontakt.html">
+                    <li>Gib uns Feedback!</li>
+                </a>
+            </ul>
+        <hr>
+            <!-- <p><img src="bilder/kontaktbild.jpg" width="960px" alt="Tiger Mali im Tiergarten Schönbrunn" title="Wir freuen uns über dein Feedback."> -->
+            </p>
+            <h1>Wir freuen uns über dein Feedback!</h1>
+        </nav>
+    </header>    
+    <main>
+        <article>
+            <p>Du warst schon bei uns zu Besuch? Dann freuen wir uns über deine Rückmeldung!</p>
+            <form method="post" action="">
+                <fieldset>
+                    <legend>Deine Daten</legend>
+                <div class="form-item">
+                    <label for="Name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-item">
+                    <label for="mailadresse">E-Mail-Adresse</label>
+                    <input type="email" name="mailadresse" id="mailadresse">
+                </div>
+                <div class="form-item">
+                    <label for="besuchstag">Besuchstag</label>
+                    <input type="date" name="besuchstag" id="besuchstag">
+                </div>
+                <div class="form-item">
+                    <label for="gefallen">Besuchszeit</label>
+                    <input type="time" name="besuchszeit" id="besuchszeit">
+                </div>
+                <div class="form-item">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Deine Bewertung</legend>
+                    <label for="gefallen">Wie hat es dir gefallen?</label>
+                    <input type="range" name="gefallen" id="gefallen" min="0" max="5" step="1" value="3">
+                </div>
+                <div class="form-item">
+                    <label>Würdest du uns weiterempfehlen?</label>
+                    <input type="radio" name="weiterempfehlen" id="empfehlen-ja" value="ja">
+                    <label for="empfehlen-ja">ja</label>
+                    <input type="radio" name="weiterempfehlen" id="empfehlen-nein" value="nein">
+                    <label for="empfehlen-nein">nein</label>
+                </div>
+                <div class="form-item">
+                    <label for="tierart">Welche Tierart hat dir am besten gefallen?</label>
+                    <input type="text" list="tierliste" name="tierart" id="tierart">
+                    <datalist id="tierliste">
+                        <option value="Tiger"></option>
+                        <option value="Wolf"></option>
+                        <option value="Affe"></option>
+                        <option value="Zebra"></option>
+                        <option value="Giraffe"></option>
+                    </datalist>
+                </div>
+                <div class="form-item">
+                    <label for="kommentar">Was möchtest du uns sonst noch sagen?</label>
+                    <textarea rows="5" cols="20" name="kommentar" id="kommentar"></textarea>
+                </div>
+                <div class="form-item">
+                    <label for="besucherinfo">Besucherinfo</label>
+                    <select name="besucherinfo" id="besucherinfo">
+                        <option value="1">Familienausflug</option>
+                        <option value="2">Allein unterwegs</option>
+                        <option value="3">Gruppenausflug</option>
+                        <option value="4">Ausflug mit Freunden</option>
+                        <option value="5">was anderes</option>
+                    </select>
+                </div>
+                <button type="submit">Absenden</button>
+                <button type="reset">Eingabe löschen</button>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; Elisabeth Ritt, 2020</p>
+    </footer>
+</body>
+</html>

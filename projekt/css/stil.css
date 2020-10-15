@@ -1,0 +1,106 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 1.2rem;
+    background-color: lightgoldenrodyellow;   
+    text-align: center;
+    line-height: 120%;
+}
+
+footer {
+    background-color: #008a88;
+    color: lightgoldenrodyellow; 
+    padding: 20px;
+    margin-top: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 px;
+    padding: 0px;
+}
+
+nav a {
+    color: #008a88;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+
+hr {
+    border: 1px solid #008a88;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    width: 50%;
+}
+
+table {
+    width: 90%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid darkgrey;
+  }
+
+  th {
+      padding: 20px;
+      background-color: #008a88;
+      color: white;
+  }
+
+  td {
+      padding: 10px;
+      background-color: white;
+      height: 30px;
+  }
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+fieldset {
+    padding: 20px;
+    margin: 20px;
+}
+
+label {
+    padding: 20px 0 20px 0;
+}
+
+.form-item {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+dt {
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+dl {
+    width: 55%;
+    margin: auto;
+}
+
+dd {
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding-top: 20px;
+}
